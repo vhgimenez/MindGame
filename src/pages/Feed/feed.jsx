@@ -1,30 +1,14 @@
 import { React, useState, useEffect } from "react";
 import { Container } from "./styles";
+import { MenuNav } from "../../Components/MenuNav/MenuNav";
+import { NewPublication } from "../../Components/NewPublication/NewPublication.";
+import { PublicationFeed } from "../../Components/Feed/PublicationFeed";
 
 export function Feed() {
 
     return (
         <Container>
-            <header>
-                <div className="LogoSearch">
-                    <img src="logo.png"></img>
-                    <input type="text" placeholder="Explore the World"></input>
-                </div>
-                <div className="HeaderRight">    
-                    <div className="MenuIcons">
-                        <img src="homeselected.png" id="home"></img>
-                        <img src="friends.png"></img>
-                        <img src="comunidade.png"></img>
-                        <img src="message.png"></img>
-                        <img src="notifications.png"></img>
-                    </div>
-                    <div className="PerfilConfigs">
-                        <img src="settings.png" id="settings"></img>
-                        <img src="perfil.jpeg"></img>
-                        <img src="setaperfil.png" id="setaperfil"></img>
-                    </div>
-                </div>
-            </header>
+            <MenuNav></MenuNav>
             <main>
                 <div className="LeftScreen">
                     <div className="Infos">
@@ -97,56 +81,12 @@ export function Feed() {
                     </div>
                 </div>
                 <div className="CenterScreen">
-                    <div className="NewPublication">
-                        <div className="Publicate">
-                            <img src="perfil.jpeg"></img>
-                            <input type="text" placeholder="Have achievements to share?"></input>
-                        </div>
-                        <div className="FunctionsPublicate">
-                            <div className="Live">
-                                <img src="live.png"></img>
-                                <p>Live</p>
-                            </div>
-                            <div className="ImageOrVideo">
-                                <img src="images.png"></img>
-                                <p>Photo / Video</p>
-                            </div>
-                            <div className="Achievements">
-                                <img src="star.png"></img>
-                                <p>Achievements</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Feed">
-                        <div className="Post">
-                            <div className="HeaderPublication">   
-                                <div className="PerfilImage">
-                                    <img src="perfil.jpeg"></img>
-                                </div>
-                                <div className="NameData">
-                                    <h2>Victor Gimenez</h2>
-                                    <div className="DataPrivacy">
-                                        <p>3 h ·</p>
-                                        <img src="public.png"></img>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="EditPublication">
-                                <img src="pontos.png"></img>
-                                <img src="x.png"></img>
-                            </div>
-                        </div>
-                        <div className="LegendPost">
-                                <p>🧠🎮 MindGame - Unlock Your Mental Potential! 🎯🌟</p><br></br>
-                                <p>🔥 Ready to level up your brainpower? 🔥 </p><br></br><p>Dive into the world of MindGame and unleash the full potential of your mind! 🚀🌌
-                                🧠 Challenge your intellect with an array of mind-bending puzzles, brain teasers, and cognitive games designed to push your 
-                                cognitive abilities to new heights. 🤯💡 Whether you're a seasoned puzzler or a curious beginner, MindGame has something 
-                                exciting for everyone! 🤩🔓 <span>... View More</span></p>
-                        </div>
-                        <div className="ImagePublicate">
+                    <NewPublication>
 
-                        </div>
-                    </div>
+                    </NewPublication>
+                    <PublicationFeed>
+
+                    </PublicationFeed>
                 </div>
                 <div className="RightScreen">
                     <div className="TopGames">
