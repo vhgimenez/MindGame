@@ -16,6 +16,7 @@ export default createGlobalStyle`
         height: 100vh;
         background-image: linear-gradient(40deg, rgb(113, 1, 91) 0%, rgb(113, 1, 91) 50%, #08007d 100%);
         font-family: "Agdasima";
+        overflow-x: hidden;
     }
 
     button:hover {
@@ -25,5 +26,9 @@ export default createGlobalStyle`
 
     a:hover {
         color: rgb(0, 208, 255);
+    }
+
+    hr {
+        border-color: #CCCCCC;
     }
 `;
