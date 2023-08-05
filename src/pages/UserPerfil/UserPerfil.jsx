@@ -2,6 +2,8 @@ import { React } from "react";
 import { Container } from "./styles";
 import { MenuNav } from "../../Components/MenuNav/MenuNav";
 import { NewPublication } from "../../Components/NewPublication/NewPublication.";
+import { TopGames } from "../../Components/TopGames/TopGames";
+import { DivAchievements } from "../../Components/DivAchievements/DivAchievements";
 import { PublicationFeed } from "../../Components/Feed/PublicationFeed";
 
 export function UserPerfil() {
@@ -82,12 +84,17 @@ export function UserPerfil() {
                         </div>
                         <div className="FeedPerfil">
                             <NewPublication></NewPublication>
-
+                            <PublicationFeed></PublicationFeed>
                         </div>
                     </div>
                 </div>
                 <div className="RightContent">
+                    <TopGames>
 
+                    </TopGames>
+                    <DivAchievements>
+
+                    </DivAchievements>
                 </div>
             </main>
         </Container>

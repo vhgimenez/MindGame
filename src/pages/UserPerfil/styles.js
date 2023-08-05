@@ -14,7 +14,7 @@ export const Container = styled.div`
     }
 
     .LeftContent {
-        width: 70%;
+        width: 77%;
     }
 
     .DivHeader {
@@ -170,15 +170,17 @@ export const Container = styled.div`
     }
 
     .ContentCenter {
+        width: 100%;
         display: flex;
         gap: 1rem;
     }
 
     .DivBiography {
         padding: .5rem 2rem 1rem;
-        width: 50%;
+        width: 100%;
         background-color: black;
         border-radius: 1rem;
+        height: 100%;
     }
 
     .Level {
@@ -245,15 +247,17 @@ export const Container = styled.div`
     }
 
     .FeedProfile {
-        width: 50%;
-        height: 15rem;
-        border-radius: 1rem;
-        background-color: black;
     }
 
     .NewPublication {
-        width: 25.6rem;
+        width: 100%;
     }
 
+    .Feed {
+        margin-top: 1rem;
+        width: 100%;
+        background-color: black;
+        border-radius: 1rem;
+    }
 
 `;
