@@ -13,6 +13,139 @@ export const Container = styled.div`
         width: 100%;
     }
 
+    .visibilityon {
+        opacity: 1;
+        visibility: visible;
+        display: block;
+    }
+
+    .PublishingArea {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: black;
+        width: 30rem;
+        height: 19.2rem;
+        border-radius: 1rem;
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+
+    .TopPublishing {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .DataPublishing {
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+    }
+
+    .NameAndPrivate h2 {
+        font-size: 1.2rem;
+        color: #910075;
+    }
+
+    .ImagePrivate {
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+    }
+
+    .ImagePrivate img {
+        width: .8rem;
+        height: .8rem;
+    }
+
+    .ImagePrivate p {
+        font-size: .8rem;
+        color: #CCCCCC;
+    }
+
+    .PerfilPublishing img {
+        border-radius: 50%;
+        width: 2.8rem;
+        height: 3rem;
+        cursor: pointer;
+    }
+
+    .ClosePublishing img {
+        width: .8rem;
+        height: .8rem;
+        cursor: pointer;
+        transition: background-color .3s;
+    }
+
+    .ClosePublishing img:hover {
+        background-color: #CCCCCC;
+    }
+
+    .TextArea {
+        width: 100%;
+    }
+
+    .TextArea textarea {
+        background-color: black;
+        width: 100%;
+        height: 8.5rem;
+        border: none;
+        padding: .5rem 1rem 0;
+        font-family: "Agdasima";
+        font-size: 1.2rem;
+        resize: none;
+        color: #CCCCCC;
+    }
+
+    .AddComponents {
+        margin: .5rem 0;
+        padding: 0 1rem;
+        display: flex;
+        gap: .3rem;
+    }
+
+    .AddComponents img {
+        width: 1.3rem;
+        height: 1.3rem;
+        cursor: pointer;
+        transition: background-color .3s;
+    }
+
+    .AddComponents img:hover {
+        background-color: #CCCCCC;
+    }
+
+    .PublishingArea hr {
+        margin: 0 1rem;
+    }
+
+    .ButtonPublish {
+        padding: .5rem 1rem;
+        width: 100%;
+        align-items: right;
+    }
+
+    .ButtonPublish button {
+        border: none;
+        border-radius: .4rem;
+        padding: .3rem;
+        width: 100%;
+        cursor: pointer;
+        font-family: "Agdasima";
+        font-size: 1rem;
+        transition: transform .3s;
+    }
+
+    .ButtonPublish button:hover {
+        transform: scale(1.05);
+    }
+
     .LeftContent {
         width: 77%;
     }

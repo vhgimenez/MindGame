@@ -1,4 +1,4 @@
-import { React } from "react";
+import { React, useState, useEffect } from "react";
 import { Container } from "./styles";
 import { MenuNav } from "../../Components/MenuNav/MenuNav";
 import { NewPublication } from "../../Components/NewPublication/NewPublication.";
@@ -12,6 +12,38 @@ export function UserPerfil() {
         <Container>
             <MenuNav></MenuNav>
             <main>
+                <div className="PublishingArea">
+                    <div className="TopPublishing">
+                        <div className="DataPublishing">
+                            <div className="PerfilPublishing">
+                                <img src="perfil.jpeg"></img>
+                            </div>
+                            <div className="NameAndPrivate">
+                                <h2>Victor Gimenez</h2>
+                                <div className="ImagePrivate">
+                                    <img src="public.png"></img><p>Public</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="ClosePublishing">
+                            <img src="x.png"></img>
+                        </div>
+                    </div>
+                    <div className="TextArea">
+                        <textarea placeholder="Have Achievements to share?"></textarea>
+                    </div>
+                    <div className="AddComponents">
+                        <img src="images.png"></img>
+                        <img src="friends.png"></img>
+                        <img src="controle.png"></img>
+                        <img src="star.png"></img>
+                        <img src="pontos.png"></img>
+                    </div>
+                    <hr></hr>
+                    <div className="ButtonPublish">
+                        <button>Publish</button>
+                    </div>
+                </div>
                 <div className="LeftContent">
                     <div className="DivHeader"> 
                         <div className="Wallpaper">

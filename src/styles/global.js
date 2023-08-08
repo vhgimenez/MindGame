@@ -12,11 +12,12 @@ export default createGlobalStyle`
     }
 
     body {
-        width: 100vh;
+        width: 100%;
         height: 100vh;
         background-image: linear-gradient(40deg, rgb(113, 1, 91) 0%, rgb(113, 1, 91) 50%, #08007d 100%);
         font-family: "Agdasima";
         overflow-x: hidden;
+        position: relative;
     }
 
     button:hover {
