@@ -84,6 +84,79 @@ export function Achievements() {
                                     <p>00%</p>
                                 </div>
                             </div>
+                            <div className="Achievement">
+                                <div className="About">
+                                    <div className="AchievementImage">
+                                        <img src="controleachi.png"></img>
+                                    </div>
+                                    <div className="AchievementText">
+                                        <h2>Games Lovers</h2>
+                                        <p>To get this achievement you need to play at least 5 games</p>
+                                        <p className="tip">TIP: Online games develop teamwork, concentration, 
+                                        communication and problem-solving skills. They are also a great opportunity 
+                                        to work on communication and conflict resolution.</p>
+                                    </div>
+                                </div>
+                                <div className="ProgressBar">
+                                    <p>00%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="Achievements">
+                            <div className="Achievement">
+                                <div className="About">
+                                    <div className="AchievementImage">
+                                        <img src="share.png"></img>
+                                    </div>
+                                    <div className="AchievementText">
+                                        <h2>Explorer</h2>
+                                        <p>To get this achievement you need to have at least 5 publications</p>
+                                        <p className="tip">TIP: Sharing experiences, tastes, needs and 
+                                        sensations is a natural human mechanism. For this reason, being able 
+                                        to share moments, feelings and experiences with friends is a way to 
+                                        improve mental health..</p>
+                                    </div>
+                                </div>
+                                <div className="ProgressBar">
+                                    <p>00%</p>
+                                </div>
+                            </div>
+                            <div className="Achievement">
+                                <div className="About">
+                                    <div className="AchievementImage">
+                                        <img src="maos.png"></img>
+                                    </div>
+                                    <div className="AchievementText">
+                                        <h2>Strong Friendship</h2>
+                                        <p>To get this achievement you need to have reacted to 50 friend posts</p>
+                                        <p className="tip">TIP: In addition to serving as a foundation in your 
+                                        daily life, friendships serve to break barriers of prejudice, regardless 
+                                        of race, gender, nationality and connecting people from all over the world.</p>
+                                    </div>
+                                </div>
+                                <div className="ProgressBar">
+                                    <p>00%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="Achievements">
+                            <div className="Achievement">
+                                <div className="About">
+                                    <div className="AchievementImage">
+                                        <img src="liveachi.png"></img>
+                                    </div>
+                                    <div className="AchievementText">
+                                        <h2>Streaming Master</h2>
+                                        <p>To get this achievement you need to have performed 10 lives</p>
+                                        <p className="tip">TIP: The streaming service works by transmitting 
+                                        audio and video data over the internet continuously and in real time, 
+                                        allowing users to consume the content without having to download it beforehand.</p>
+                                    </div>
+                                </div>
+                                <div className="ProgressBar">
+                                    <p>00%</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
