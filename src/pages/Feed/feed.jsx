@@ -3,7 +3,7 @@ import { Container } from "./styles";
 import { MenuNav } from "../../Components/MenuNav/MenuNav";
 import { NewPublication } from "../../Components/NewPublication/NewPublication.";
 import { PublicationFeed } from "../../Components/Feed/PublicationFeed";
-import { TopGames } from "../../Components/TopGames/TopGames";
+import { DivTopGames } from "../../Components/DivTopGames/DivTopGames";
 import { DivAchievements } from "../../Components/DivAchievements/DivAchievements";
 
 export function Feed() {
@@ -91,9 +91,9 @@ export function Feed() {
                     </PublicationFeed>
                 </div>
                 <div className="RightScreen">
-                    <TopGames>
+                    <DivTopGames>
 
-                    </TopGames>
+                    </DivTopGames>
                     <DivAchievements>
                         
                     </DivAchievements>

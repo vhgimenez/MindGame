@@ -1,8 +1,9 @@
 import { React } from "react";
 import { Container } from "./styles";
 import { MenuNav } from "../../Components/MenuNav/MenuNav";
-import { TopGames } from "../../Components/TopGames/TopGames";
+import { DivTopGames } from "../../Components/DivTopGames/DivTopGames";
 import { DivAchievements } from "../../Components/DivAchievements/DivAchievements";
+import { TopDiv } from "../../Components/TopDiv/TopDiv";
 
 export function Achievements() {
 
@@ -11,20 +12,7 @@ export function Achievements() {
             <MenuNav></MenuNav>
             <main>
                 <div className="LeftScreen">
-                    <div className="TopDiv">
-                        <div className="Data">
-                            <div className="ImagePerfil">
-                                <img src="perfil.jpeg"></img>
-                            </div>
-                            <div className="NameLevel">
-                                <h2>Victor Gimenez</h2>
-                                <p>Lv 1 - Begineer</p>
-                            </div>
-                        </div>
-                        <div className="Back">
-                            <img src="setaesquerda.png"></img>
-                        </div>
-                    </div>
+                    <TopDiv></TopDiv>
                     <hr></hr>
                     <div className="DoubleAchievements">
                         <h2>Achievements (00)</h2>
@@ -161,7 +149,7 @@ export function Achievements() {
                     </div>
                 </div>
                 <div className="RightScreen">
-                    <TopGames></TopGames>
+                    <DivTopGames></DivTopGames>
                     <DivAchievements></DivAchievements>
                 </div>
             </main>

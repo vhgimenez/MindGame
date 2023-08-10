@@ -2,7 +2,7 @@ import { React, useState, useEffect } from "react";
 import { Container } from "./styles";
 import { MenuNav } from "../../Components/MenuNav/MenuNav";
 import { NewPublication } from "../../Components/NewPublication/NewPublication.";
-import { TopGames } from "../../Components/TopGames/TopGames";
+import { DivTopGames } from "../../Components/DivTopGames/DivTopGames";
 import { DivAchievements } from "../../Components/DivAchievements/DivAchievements";
 import { PublicationFeed } from "../../Components/Feed/PublicationFeed";
 
@@ -121,9 +121,9 @@ export function UserPerfil() {
                     </div>
                 </div>
                 <div className="RightContent">
-                    <TopGames>
+                    <DivTopGames>
 
-                    </TopGames>
+                    </DivTopGames>
                     <DivAchievements>
 
                     </DivAchievements>

@@ -1,7 +1,7 @@
 import { React} from "react";
 import { Container } from "./styles";
 
-export function TopGames() {
+export function DivTopGames() {
 
     return (
         <Container>
