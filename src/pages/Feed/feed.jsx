@@ -5,6 +5,7 @@ import { NewPublication } from "../../Components/NewPublication/NewPublication."
 import { PublicationFeed } from "../../Components/Feed/PublicationFeed";
 import { DivTopGames } from "../../Components/DivTopGames/DivTopGames";
 import { DivAchievements } from "../../Components/DivAchievements/DivAchievements";
+import { TopPerfil } from "../../Components/TopPerfil/TopPerfil";
 
 export function Feed() {
 
@@ -13,16 +14,7 @@ export function Feed() {
             <MenuNav></MenuNav>
             <main>
                 <div className="LeftScreen">
-                    <div className="Infos">
-                        <div className="Wallpaper">
-
-                        </div>
-                        <div className="Data">
-                            <img src="perfil.jpeg"></img>
-                            <h2>Victor Gimenez</h2>
-                            <p>Amante de Games | Estudante | Desenvolvedor Web Full-Stack</p><hr></hr>
-                        </div>
-                    </div>
+                    <TopPerfil></TopPerfil>
                     <div className="PerfilNumbers">
                         <div className="Numbers1">
                             <div className="Statics1">
