@@ -10,10 +10,11 @@ import { Configs } from './pages/Configs/Configs';
 import { PrivacyConfigs } from './pages/PrivacyConfigs/PrivacyConfigs';
 import { NotificationConfigs } from './pages/NotificationConfigs/NotificationConfigs';
 import { BlockConfigs } from './pages/BlockConfigs/BlockConfigs';
+import { Notifications } from './pages/Notifications/Notifications';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <GlobalStyle />
-    <BlockConfigs />
+    <Notifications />
   </React.StrictMode>,
 )
