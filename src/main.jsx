@@ -13,10 +13,11 @@ import { BlockConfigs } from './pages/BlockConfigs/BlockConfigs';
 import { Notifications } from './pages/Notifications/Notifications';
 import { Requests } from './pages/Requests/Requests';
 import { Chat } from './pages/Chat/Chat';
+import { Groups } from './pages/Groups/Groups';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <GlobalStyle />
-    <Chat />
+    <Groups />
   </React.StrictMode>,
 )
