@@ -12,10 +12,11 @@ import { NotificationConfigs } from './pages/NotificationConfigs/NotificationCon
 import { BlockConfigs } from './pages/BlockConfigs/BlockConfigs';
 import { Notifications } from './pages/Notifications/Notifications';
 import { Requests } from './pages/Requests/Requests';
+import { Chat } from './pages/Chat/Chat';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <GlobalStyle />
-    <Requests />
+    <Chat />
   </React.StrictMode>,
 )

@@ -36,11 +36,47 @@ export function Requests() {
                             <button>No</button>
                         </div>
                     </div>
+                    <h2>Suggestions</h2>
+                    <hr></hr>
                     <div className="Requests">
                         <div className="Notification">
                             <div className="Perfil">
                                 <img src="lol.png"></img>
                                 <p><span>League of Legends</span> It's one of the hottest games 
+                                of the moment, you can follow <span>...</span></p>
+                            </div>
+                            <div className="Settings">
+                                <p>3 h</p>
+                                <img src="pontos.png"></img>
+                            </div>
+                        </div>
+                        <div className="Buttons">
+                            <button>Follow</button>
+                            <button>No</button>
+                        </div>
+                    </div>
+                    <div className="Requests">
+                        <div className="Notification">
+                            <div className="Perfil">
+                                <img src="valorant.png"></img>
+                                <p><span>Valorant</span> It's one of the hottest games 
+                                of the moment, you can follow <span>...</span></p>
+                            </div>
+                            <div className="Settings">
+                                <p>3 h</p>
+                                <img src="pontos.png"></img>
+                            </div>
+                        </div>
+                        <div className="Buttons">
+                            <button>Follow</button>
+                            <button>No</button>
+                        </div>
+                    </div>
+                    <div className="Requests">
+                        <div className="Notification">
+                            <div className="Perfil">
+                                <img src="mine.png"></img>
+                                <p><span>Minecraft</span> It's one of the hottest games 
                                 of the moment, you can follow <span>...</span></p>
                             </div>
                             <div className="Settings">
