@@ -1,7 +1,7 @@
 
 # Mindgame
 
-Esse projeto foi cronstruído com o intuito de criar uma rede social voltada para comunidade de games, para compartilhar suas conquistas e seus divertimentos.
+Esse projeto foi cronstruído com o intuito de criar uma rede social voltada para comunidade de games, para compartilhar suas conquistas e seus divertimentos..
 ## Ferramentas Utilizadas
 
 - React
